@@ -1,0 +1,15 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+*{
+    font-family: 'Gilroy';
+}
+
+::selection{
+    /* color: rgb(130, 197, 30); */
+    color: rgb(22 163 74 / var(--tw-bg-opacity));
+    /* color: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%); */
+}
