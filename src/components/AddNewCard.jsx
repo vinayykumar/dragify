@@ -21,7 +21,8 @@ function AddNewCard({ data, setData, setAddNewCard}) {
         description:Desc,
         color:selectedColor
     }])
-    console.log(data);
+    // console.log(data);
+    setAddNewCard(false);
   }
 
   return (

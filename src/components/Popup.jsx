@@ -13,8 +13,8 @@ function Popup({ data, onClose }) {
         >
           <X/>
         </button>
-        <h2 className="text-xl font-bold mb-3">{data.title}</h2>
-        <p>{data.description}</p>
+        <h2 className="text-3xl font-bold mb-3">{data.title}</h2>
+        <p className='text-lg'>{data.description}</p>
       </div>
     </div>
   );
