@@ -3,7 +3,8 @@ import Card from './Card'
 import Popup from './Popup'
 import { Plus } from 'lucide-react';
 import AddNewCard from './AddNewCard';
-import dummy from '../dummydata'
+import dummy from '../dummydata'  
+import Xarrow, {useXarrow, Xwrapper} from 'react-xarrows';
 
 function Foreground() {
   const ref = useRef(null);

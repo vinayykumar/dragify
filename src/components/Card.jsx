@@ -2,8 +2,11 @@ import React from 'react'
 import { ResizableBox } from 'react-resizable';
 import 'react-resizable/css/styles.css';
 import { motion } from 'framer-motion';
+import Xarrow, {useXarrow, Xwrapper} from 'react-xarrows';
+
 
 function Card({ data, reference, handleCardClick }) {
+    const updateXarrow = useXarrow();
     return (<motion.div drag dragConstraints={reference} whileDrag={{scale:1.2}} dragElastic={0.2}>
         <ResizableBox
             className="rounded-[40px] bg-zinc-900/80 px-6 py-8 relative overflow-hidden flex-shrink-0"
