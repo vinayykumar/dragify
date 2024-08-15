@@ -16,7 +16,7 @@ function AddNewCard({ data, setData, setAddNewCard}) {
         return;
     } 
     setData([...data,{
-        id:`card${data.length +1}`,
+        id:data.length + 1,
         title:Title,
         description:Desc,
         color:selectedColor
